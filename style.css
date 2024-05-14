@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*     NAVIGATION BAR      */
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: rgb(214, 214, 213);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+}
+
+.logo {
+    justify-content: center;
+    font-size: 40px;
+    font-style: italic;
+    align-content: center;
+    font-weight: bold;
+}
+
+.option {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+}
+
+.option :hover {
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* INTRODUCTION */
+
+#intro {
+    background-color: rgb(214, 214, 213);
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: x-large;
+    align-content: center;
+}
+.text h1{
+    color: #ff0606; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text h2{
+    color: rgb(83, 4, 4);"
+}
+.text h3{
+    font-family: sans-serif; 
+    font-weight: 400;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+/* SKILLS */
+
+#skills {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(214, 214, 213);
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+ul {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+}
+
+/* PROJECT */
+
+#proj {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(214, 214, 213);
+
+}
+
+.project {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(214, 214, 213);
+}
+
+.pr1 {
+    margin: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.pr1 h1 {
+    margin: 50px;
+    font-size: 35px;
+    text-align: center;
+    color: #ff0606;
+}
+
+.pr1 h2 {
+    font-family: sans-serif;
+    font-size: x-large;
+    color: rgb(70, 70, 70);
+
+}
+
+.pr2 {
+    margin: 50px;
+    text-align: center;
+}
+
+.pr2 h1 {
+    margin: 50px;
+    font-size: 35px;
+    text-align: center;
+    color: #ff0606;
+}
+
+.pr2 h2 {
+    font-family: sans-serif;
+    font-size: x-large;
+    color: rgb(70, 70, 70);
+
+}
+
+/* EDUCATION */
+
+#education {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(214, 214, 213);
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.table,th,td{
+    margin: auto;
+    width: 80vw;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+/* ABOUT */
+
+#about{
+    margin-top: 10px;
+    background-color: rgb(214, 214, 213);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+.about-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.abouttxt{
+    text-align: left;
+    line-height: 1.5;
+}
+.abouttxt h2{
+    color: rgb(0, 138, 138);
+    font-family: 'Times New Roman', Times, serif;
+}
+.abouttxt p{
+    color: rgb(62, 63, 63);
+}
+.button{
+    color: #001aff;
+    border: 1px;
+    margin-top: 70px;
+}
+.button a {
+    border-radius: 5%;
+    padding: 30px;
+    background-color: aqua;
+    color: #000;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button a:hover{
+    background-color: rgb(110, 0, 0);
+    color: #ffffff;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contact */
+
+#contact{
+    margin-top: 10px;
+    background-color: rgb(214, 214, 213);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+}
